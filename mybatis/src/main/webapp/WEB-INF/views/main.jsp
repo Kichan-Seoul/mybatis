@@ -4,9 +4,9 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>Welcome</title>
 </head>
 <body>
-	main화면입니다.
+	<jsp:include page="common/menubar.jsp"></jsp:include>
 </body>
 </html>
