@@ -22,7 +22,11 @@ public class LogoutServlet extends HttpServlet {
 	     response.getWriter().println("alert('로그아웃 되었습니다.');");
 	     response.getWriter().println("location.href='" + request.getContextPath() + "/index.jsp';");
 	     response.getWriter().println("</script>");
-		
+
+			/*
+			 * request.getSession().invalidate();
+			 * response.sendRedirect(request.getContextPath());
+			 */
 	}
 
 }
