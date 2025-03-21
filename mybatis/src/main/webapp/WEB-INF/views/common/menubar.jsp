@@ -5,7 +5,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Welcome</title>
+<title></title>
 </head>
 <style>
 	@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next:ital,wght@0,200..800;1,200..800&family=Gothic+A1&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Nanum+Myeongjo&family=Shafarik&display=swap');
@@ -38,14 +38,22 @@
         padding-right: 70px;
         padding-left: 70px;
         font-family : Nanum Myeongjo, serif;
+        cursor : pointer;
     }
     .main-Logo {
     	font-family : Nanum Myeongjo;
     	text-align: center;
     }
+    /* .outer {
+    	text-align: center;
+    }
+    .outer table tr {
+    	text-align: left;
+    	height: 30px;
+    } */
 </style>
 <body>
-	<h1 class="main-Logo">Welcome to Maybatis world</h1>
+	<h1 class="main-Logo">Welcome to KING KI-CHAN world!</h1>
 
 	<div class="login-area" align="center">
 		<c:choose>      
@@ -63,7 +71,7 @@
     		            </tr>
          		        <tr>
      		            	<td colspan="3" align="right">
-        	        	    	<a href="">회원가입</a>&emsp;
+        	        	    	<a href="enrollForm.me">회원가입</a>&emsp;
        		     	        	<a href="">아이디/비밀번호 찾기</a>
     	        	        </td>
     		            </tr>
@@ -87,16 +95,8 @@
     <div class="nav-area" align=""center>
         <div class="menu">HOME</div>
         <div class="menu">공지사항</div>
-        <div class="menu" onclick="">게시판</div>
+        <div class="menu" onclick="location.href='list.bo?nowPage=1'">게시판</div>
         <div class="menu">ETC</div>
     </div>
-
-
-
-
-
-
-
-
 </body>
 </html>
